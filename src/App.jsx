@@ -90,7 +90,7 @@ const App = () => {
       <div className='mt-16 bg-white h-[75vh] p-8 shadow-2xl w-7/12 mx-auto rounded-md overflow-y-auto scroll '>
         <div className='border-b text-xl font-bold text-center uppercase'>The company users</div>
         <div className='mt-4 flex items-center justify-center'>
-          <input className='w-60 h-fit px-2 py-1 border border-zinc-500 text-sm rounded-sm outline-none' value={search} placeholder='search by username or email' onChange={(event) => setSearch(event.target.value)} onKeyUp={HandleSearch}></input>
+          <input className='w-60 h-fit px-2 py-1 border border-zinc-400 text-sm rounded-sm outline-none' value={search} placeholder='search by username or email' onChange={(event) => setSearch(event.target.value)} onKeyUp={HandleSearch}></input>
         </div>
         <div className='flex flex-col gap-6 mt-10'>
           {altUserArray.map((ele, index) => (
